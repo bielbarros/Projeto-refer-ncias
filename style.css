@@ -27,6 +27,18 @@
     margin: 0 auto; /* Centraliza o parágrafo */
   }
   
+  .references {
+    margin-top: 20px; /* Adiciona espaço acima do primeiro item de referência */
+  }
+  
+  .reference {
+    margin-bottom: 20px; /* Define a distância entre cada referência */
+  }
+
+  .reference p {
+    word-wrap: break-word; /* Permite que palavras longas sejam quebradas em várias linhas */
+  }
+
   @media only screen and (max-width: 600px) {
     h1 {
       font-size: 40px; /* Reduz o tamanho da fonte para dispositivos móveis */
@@ -47,6 +59,7 @@
     .content {
       max-width: 90%; /* Define a largura máxima da área de conteúdo para dispositivos móveis */
       margin: 0 auto; /* Centraliza o conteúdo na tela */
+      text-align: center; /* Centraliza todo o conteúdo */
     }
   
     body {
@@ -89,4 +102,3 @@
       background-size: cover; /* Adiciona a propriedade para cobrir toda a tela */
     }
   }
-  
