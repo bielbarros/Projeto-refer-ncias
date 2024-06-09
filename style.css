@@ -25,6 +25,7 @@
     line-height: 1.6; /* Espaçamento entre linhas */
     margin: 0 auto; /* Centraliza o parágrafo */
     max-width: 800px; /* Largura máxima do parágrafo */
+    overflow-y: auto; /* Adiciona uma barra de rolagem vertical quando o conteúdo excede a altura máxima */
   }
   
   @media only screen and (max-width: 600px) {
