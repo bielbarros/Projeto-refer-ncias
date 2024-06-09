@@ -21,6 +21,10 @@
   
   p {
     font-size: 15px;
+    text-align: justify; /* Justifica o texto */
+    line-height: 1.6; /* Espaçamento entre linhas */
+    margin: 0 auto; /* Centraliza o parágrafo */
+    max-width: 800px; /* Largura máxima do parágrafo */
   }
   
   @media only screen and (max-width: 600px) {
@@ -39,6 +43,20 @@
     p {
       font-size: 12px; /* Reduz o tamanho da fonte para dispositivos móveis */
     }
+  
+    .content {
+      max-width: 90%; /* Define a largura máxima da área de conteúdo para dispositivos móveis */
+      margin: 0 auto; /* Centraliza o conteúdo na tela */
+    }
+  
+    body {
+      text-align: center; /* Centraliza todo o conteúdo no corpo */
+    }
+  }
+  
+  .content {
+    max-width: 800px; /* Define a largura máxima da área de conteúdo para dispositivos de tela grande */
+    margin: 0 auto; /* Centraliza o conteúdo na tela */
   }
   
   body {
