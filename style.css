@@ -49,6 +49,19 @@
       margin: 0 auto; /* Centraliza o conteúdo na tela */
     }
   
+    .references {
+      display: flex;
+      justify-content: center;
+    }
+  
+    .reference-box {
+      max-height: 300px; /* Altura máxima da caixa de referência */
+      overflow-y: auto; /* Adiciona uma barra de rolagem vertical quando o conteúdo excede a altura máxima */
+      margin: 0 auto; /* Centraliza a caixa de referência */
+      padding: 10px; /* Adiciona um espaçamento interno à caixa de referência */
+      text-align: justify; /* Justifica o texto dentro da caixa */
+    }
+  
     body {
       text-align: center; /* Centraliza todo o conteúdo no corpo */
     }
